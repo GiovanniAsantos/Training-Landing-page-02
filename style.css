@@ -1,0 +1,765 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.header{
+    display: flex;
+    height: 10vh;
+    
+    
+}
+
+.logopai{
+    margin-left: 50px;
+    margin-top: 15px;
+    display: flex ;
+}
+
+.logo{
+    width: 2vw;
+    height: 4vh;
+    transform: scaleX(-1);
+}
+
+.nomelogo{
+    color: #FF7B00;
+    font-size: 16px;
+    margin-left: 5px;
+}
+
+.navbarpai{
+    margin-left: 560px ;
+    position: absolute;
+    height: 10vh;
+
+}
+
+.navfilho{
+    height: 10vh;
+}
+
+.buttonnavbar{
+    height: 10vh;
+    width: 4vw;
+    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    background-color: white;
+    border: none;
+}
+
+.buttonnavbar:hover{
+    background-color: #FF7B00;
+    color: white;
+}
+
+select{
+    background-color: transparent;
+    border: none;
+}
+
+select:hover{
+    color: white;
+}
+
+.buttonheader{
+    margin-left: 90vw;
+    position: absolute;
+    margin-top: 20px;
+}
+
+.buttonheaderchild{
+    width: 7vw;
+    height: 4vh;
+    border: none;
+    background-color: #FF7B00;
+    color: white;
+}
+
+.buttonheaderchild:hover{
+    background-color: white;
+    color: black;
+}
+
+.imagemfundo{
+    height: 60vh;
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://dclogisticsbrasil.com/wp-content/uploads/2018/11/container-qual-usar.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.caixatitulo2{
+    position: absolute;
+    color: #FF7B00;
+    margin-left: 650px;
+    margin-top: 80px;
+}
+
+.titulo2{
+    font-size: 30px;
+}
+
+.caixatitulo3{
+    position: absolute;
+    margin-left: 505px;
+    margin-top: 130px;
+    color:white;
+}
+
+.titulo3{
+    font-size:55px;
+}
+
+.caixainput1{
+    display: flex;
+    position: absolute;
+    margin-top: 230px;
+    margin-left: 540px;
+
+}
+
+.input1{
+    width: 20vw;
+    height: 6vh;
+    border: none;
+    outline: none;
+    text-align: center;
+}
+
+.buttoninput1{
+    border: none;
+    background-color: #FF7B00;
+    color: white;
+    width: 8vw;
+    height: 6vh;
+}
+
+.buttoninput1:hover{
+    color: black;
+    background-color: white;
+}
+
+.caixaquotepai{
+    background-color: #F2F2F4;
+    height: 50vh;
+    margin-top: 50px;
+    display: flex;
+}
+
+.caixaparag1{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 300px;
+}
+
+.paragquote1{
+    color: #FF7B00;
+    font-size: 10px;
+    font-weight: bolder;
+}
+
+.caixatitulo4{
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 300px;
+}
+
+.titulo4{
+    font-size: 27px;
+    font-weight: bolder;
+}
+
+.caixalorem{
+    width: 30vw;
+    font-size: 13px;
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 300px;
+}
+
+.caixadedados{
+    display: flex;
+    position: absolute;
+    width: 30vw;
+    justify-content: space-between;
+    margin-top: 200px;
+    margin-left: 300px;
+}
+
+.dados{
+    color: #FF7B00;
+    font-weight: bolder;
+}
+
+.pdados{
+    font-size: 10px;
+    font-weight: bolder;
+    margin-top: 4px;
+}
+
+.caixainputs{
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    background-color: #FF7B00;
+    width: 25vw;
+    margin-left: 780px;
+}
+
+.inputs2{
+    width: 20vw;
+    height: 6vh;
+    margin-left: 30px;
+    margin-top: 60px;
+    border: none;
+}
+
+.inputs3{
+    width: 20vw;
+    height: 6vh;
+    margin-left: 30px;
+    margin-top: 10px;
+    border: none;
+}
+
+.inputs4{
+    width: 20vw;
+    height: 6vh;
+    margin-left: 30px;
+    margin-top: 10px;
+    border: none;
+}
+
+.buttoncaixainputs{
+    width: 20vw;
+    height: 6vh;
+    margin-left: 30px;
+    margin-top: 10px;
+    background-color: #1F1F2E;
+    color: white;
+    border: none;
+}
+
+.buttoncaixainputs:hover{
+    background-color: white;
+    color: #FF7B00;
+}
+
+.caixadepreçospai{
+    margin-top: 70px;
+}
+
+.caixaparag2{
+    margin-left: 706px;
+    position: absolute;
+}
+
+.parag2{
+    color: #FF7B00;
+    font-size: 13px;
+    font-weight: bolder;
+}
+
+.caixatitulo5{
+    margin-left: 560px;
+    margin-top: 20px;
+    position: absolute;
+}
+
+.titulo5{
+    font-size: 27px;
+    font-weight: bolder;
+}
+
+.pacote1{
+    position: absolute;
+    background-color: #F2F2F4;
+    height: 40vh;
+    width: 15vw;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 90px;
+    margin-left: 370px;
+}
+
+.preçopac1{
+    display: flex;
+    margin-left: 85px;
+    margin-top: 10px;
+}
+
+.valor{
+    font-size: 35px;
+}
+.pormes{
+    margin-top: 18px;
+    font-size: 13px;
+}
+
+.nomepac1{
+    background-color: #FF7B00;
+    height: 7vh;
+    position: absolute;
+    width: 15vw;
+}
+
+.pac1{
+    margin-top: 12px;
+    font-weight: bolder;
+    font-size: 17px;
+}
+
+.serviços{
+    margin-top: 60px;
+    justify-content: space-between;
+    
+    width: 10vw;
+    height: 30vh;
+    flex-direction: row;
+    text-align: center;
+    margin-left: 30px;
+    font-size: 10px;
+    opacity: 0.7;
+}
+
+.serv1{
+    margin-top: 45px;
+}
+
+.serv2{
+    margin-top: 15px;
+}
+
+.serv3{
+    margin-top: 15px;
+}
+
+.serv4{
+    margin-top: 15px;
+}
+
+.caixabotaoserv{
+    margin-top: -80px;
+}
+
+.buttonpreço{
+    width: 7vw;
+    height: 4vh;
+    border: none;
+    background-color: #FF7B00;
+    color: white;
+}
+
+.buttonpreço:hover{
+    background-color: white;
+    color: #FF7B00;
+}
+
+.caixadepreçospai2{
+    margin-top: 70px;
+}
+
+.pacote2{
+    position: absolute;
+    background-color: #F2F2F4;
+    height: 40vh;
+    width: 15vw;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 90px;
+    margin-left: 620px;
+}
+
+.preçopac2{
+    display: flex;
+    margin-left: 85px;
+    margin-top: 10px;
+}
+
+.valor2{
+    font-size: 35px;   
+}
+
+.nomepac2{
+    background-color: #FF7B00;
+    height: 7vh;
+    position: absolute;
+    width: 15vw;
+}
+
+.pac2{
+    margin-top: 12px;
+    font-weight: bolder;
+    font-size: 17px;   
+}
+
+.pacote3{
+    position: absolute;
+    background-color: #F2F2F4;
+    height: 40vh;
+    width: 15vw;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 90px;
+    margin-left: 870px;   
+}
+
+.preçopac3{
+    display: flex;
+    margin-left: 85px;
+    margin-top: 10px;
+}
+
+.valor3{
+    font-size: 35px;
+}
+
+.nomepac3{
+    background-color: #FF7B00;
+    height: 7vh;
+    position: absolute;
+    width: 15vw;   
+}
+
+.pac3{
+    margin-top: 12px;
+    font-weight: bolder;
+    font-size: 17px;     
+}
+
+.caixadedelivery{
+    margin-top: 70px;
+}
+
+.caixaparag3{
+    margin-left: 706px;
+    position: absolute;   
+    margin-top: 450px;
+}
+
+.parag3{
+    color: #FF7B00;
+    font-size: 13px;
+    font-weight: bolder;
+}
+
+.caixatitulo6{
+    margin-left: 610px;
+    margin-top: 20px;
+    position: absolute;
+}
+
+.titulo6{
+    margin-top: 450px;
+    font-size: 27px;
+    font-weight: bolder;
+}
+
+.caixaemp1{
+    height: 20vh;
+    width: 12vw;
+    background-color: #F2F2F4;
+    margin-top: 650px;
+    margin-left: 350px; 
+}
+
+.emp1{
+    width: 12vw;
+    height: 33.5vh;
+}
+
+.nome{
+    font-size: 17px;
+    font-weight: bolder;
+    margin-left: 50px;
+    margin-top: 10px;    
+}
+
+.papel{
+    font-size: 13px;
+    opacity: 0.7;
+    margin-top: 10px;
+    margin-left: 55px;
+}
+
+hr{
+    background-color: #FF7B00;
+    height: 3px;
+    border: none;
+    width: 12vw;
+    margin-top: 15px;
+}
+
+.caixaemp2{
+    height: 20vh;
+    width: 12vw;
+    margin-top: -140px;
+    margin-left: 550px;
+    background-color: #F2F2F4;
+    position: absolute;
+}
+
+.emp2{
+    width: 12vw;
+    
+}
+
+.caixaemp3{
+    height: 20vh;
+    width: 12vw;
+    margin-top: -140px;
+    margin-left: 750px;
+    background-color: #F2F2F4;
+    position: absolute;
+}
+
+.emp3{
+    width: 12vw;
+    height: 33.5vh;
+}
+
+.caixaemp4{
+    height: 20vh;
+    width: 12vw;
+    margin-top: -140px;
+    margin-left: 950px;
+    background-color: #F2F2F4;
+    position: absolute;
+}
+
+.emp4{
+    width: 12vw;
+    height: 33.5vh;
+}
+
+.caixaparag4{
+    margin-left: 706px;
+    position: absolute;   
+    margin-top: 250px;
+}
+
+.parag4{
+    color: #FF7B00;
+    font-size: 13px;
+    font-weight: bolder;
+}
+
+.caixatitulo7{
+    margin-left: 630px;
+    margin-top: 20px;
+    position: absolute;
+}
+
+.titulo7{
+    margin-top: 250px;
+    font-size: 27px;
+    font-weight: bolder;
+}
+
+.caixaimgblogpai{
+    display: flex;
+    width: 60vw;
+    height: 60vh;
+
+    margin-top: 350px;
+    margin-left: 270px;
+    justify-content: space-around;
+}
+
+.caixaimgblog{
+    width: 25vw;
+    height: 60vh;
+    background-color: #F2F2F4;
+   
+}
+
+.imgpc1{
+    width: 25vw;
+    height: 35vh;
+}
+
+.dadoblogueiro{
+    display: flex;
+    text-align: center;
+    height: 5vh;
+    margin-top: 10px;
+    
+}
+
+.blogueiro{
+    width: 2.5vw;
+    height: 5vh;
+    border-radius: 50%;
+    margin-top: 0px;
+    margin-left: 10px;
+    position: absolute;
+}
+
+.nomeb{
+    font-size: 10px;
+    font-weight: bolder;
+    margin-top: 12px;
+    margin-left: 52px;
+    opacity: 0.7;
+}
+
+.fav{
+    width: 1vw;
+    height: 2vh;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.papelb{
+    font-size: 10px;
+    margin-top: 12px;
+    opacity: 0.7;
+}
+
+.loremtitulo{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+.loremblog{
+    font-size: 13px;
+    opacity: 0.7;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.linkblog{
+    margin-top: 10px;
+    margin-left: 10px;
+    color: #FF7B00;
+}
+
+.data{
+    width: 3vw;
+    height: 6vh;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #FF7B00;
+    position: absolute;
+    margin-top: -155px;
+    margin-left: 320px;
+}
+
+.paragmes{
+    color: white;
+    font-size: 12px;
+    margin-top: -5px;
+}
+
+.caixaimgblogpai2{
+    display: flex;
+    width: 25vw;
+    height: 60vh;
+    margin-left: 40px;
+   background-color: #F2F2F4;
+}
+
+.caixaimgblog{
+    width: 25vw;
+    height: 60vh;
+    background-color: #F2F2F4;
+   
+}
+
+.imgpc2{
+    width: 25vw;
+    height: 35vh;
+}
+
+.dadoblogueiro{
+    display: flex;
+    text-align: center;
+    height: 5vh;
+    margin-top: 10px;
+    
+}
+
+.blogueiro{
+    width: 2.5vw;
+    height: 5vh;
+    border-radius: 50%;
+    margin-top: 0px;
+    margin-left: 10px;
+    position: absolute;
+}
+
+.nomeb{
+    font-size: 10px;
+    font-weight: bolder;
+    margin-top: 12px;
+    margin-left: 52px;
+    opacity: 0.7;
+}
+
+.fav{
+    width: 1vw;
+    height: 2vh;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.papelb{
+    font-size: 10px;
+    margin-top: 12px;
+    opacity: 0.7;
+}
+
+.loremtitulo{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+.loremblog2{
+    font-size: 13px;
+    width: 390px;
+    opacity: 0.7;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.linkblog{
+    margin-top: 10px;
+    margin-left: 10px;
+    color: #FF7B00;
+}
+
+.data{
+    width: 3vw;
+    height: 6vh;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #FF7B00;
+    position: absolute;
+    margin-top: -155px;
+    margin-left: 320px;
+}
+
+.paragmes{
+    color: white;
+    font-size: 12px;
+    margin-top: -5px;
+}
+
+.footer{
+    height: 20vh;
+    background-color: #1F1F2E;
+    margin-top: 50px;
+}
